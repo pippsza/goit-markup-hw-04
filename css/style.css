@@ -54,13 +54,13 @@ body {
   background-color: #ffffff;
 }
 .heder {
-  padding: 24px 0;
   border-bottom: 1px solid #e7e9fc;
 }
 .heder-first {
   max-width: 496px;
   margin: auto;
   line-height: 1.07;
+  margin-bottom: 48px;
   font-size: 56px;
   font-weight: 700;
   letter-spacing: 0.02em;
@@ -98,6 +98,7 @@ body {
 }
 .prg {
   font-size: 16px;
+  width: 264px;
 }
 .prg-second {
   color: #434455;
@@ -158,9 +159,15 @@ h3 {
 }
 .sec-order {
   padding: 188px 0;
-  background-color: #2e2f42;
+  background-image: url(/images/bg_hero_sec/people-oficce.jpg);
 }
+.grey-bg {
+  background-color: grey;
+}
+
 .heder-flex {
+  padding: 0 15px;
+  justify-content: space-between;
   gap: 40px;
   display: flex;
 }
@@ -176,14 +183,18 @@ a {
 .navigation {
   color: #2e2f42;
   font-weight: 500;
+  padding: 24px 0;
 }
 .navigation:hover {
   color: #404bbf;
+  padding: 24px 0;
 }
 .navigation:focus {
   color: #404bbf;
+  padding: 24px 0;
 }
 .info-item {
+  padding: 24px 0;
   color: #434455;
 }
 .info-item:focus {
@@ -213,25 +224,24 @@ button {
   min-width: 169px;
   display: block;
   line-height: 1.5;
+  margin: auto;
   color: white;
   background-color: #4d5ae5;
-  opacity: 0;
   font-weight: 500;
   letter-spacing: 0.04em;
 }
 .prg-footer {
+  width: 264px;
   color: #f4f4fd;
 }
 .butt-order:hover {
   color: white;
   background-color: #404bbf;
-  opacity: 0;
 }
 
 .butt-order:focus {
   color: white;
   background-color: #404bbf;
-  opacity: 0;
 }
 p {
   font-size: 16px;
@@ -243,7 +253,6 @@ p {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
-  margin-bottom: 8px;
 }
 .prtf-item {
   width: calc((100% - 48px) / 3);
@@ -252,11 +261,20 @@ p {
   display: flex;
   flex-wrap: wrap;
   gap: 24px;
-  row-gap: 24px;
+  row-gap: 48px;
 }
 .logo-footer {
   display: inline-block;
-  margin-bottom: 16px;
+
+  padding: 24px 0;
+
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
 }
 .logo-web {
   padding: 24px 0;
