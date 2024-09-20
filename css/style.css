@@ -167,6 +167,7 @@ h3 {
     ),
     url(../images/bg_hero_sec/people-oficce.jpg);
   max-width: 1440px;
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
