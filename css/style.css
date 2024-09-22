@@ -303,6 +303,17 @@ button {
   letter-spacing: 0.04em;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+.logo-prg {
+  margin-right: 120px;
+}
+.footer-prg {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: white;
+  margin-bottom: 16px;
+}
 .prg-footer {
   width: 264px;
   color: #f4f4fd;
@@ -323,6 +334,8 @@ p {
   letter-spacing: 0.02em;
 }
 .footer-div {
+  display: flex;
+  align-items: baseline;
 }
 .prtf-div {
   padding: 32px 16px;
