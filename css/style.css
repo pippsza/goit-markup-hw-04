@@ -146,6 +146,7 @@ body {
   transform: translateY(0%);
 }
 .prtf-transist {
+  transform: translateY(0%);
   position: relative;
   overflow: hidden;
 }
